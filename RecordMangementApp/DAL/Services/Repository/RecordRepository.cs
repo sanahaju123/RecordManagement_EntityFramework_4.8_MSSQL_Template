@@ -16,7 +16,7 @@ namespace RecordManagementApp.DAL.Services.Repository
         }
 
 
-        public async Task<Record> CreateRecord(Record expense)
+        public async Task<Record> CreateRecord(Record record)
         {
             //write your code here
             throw new NotImplementedException();
@@ -38,7 +38,10 @@ namespace RecordManagementApp.DAL.Services.Repository
         {
             //write your code here
             throw new NotImplementedException();
-        }      
+        }
+
+      
+        
 
         public async Task<Record> UpdateRecord(Record model)
         {

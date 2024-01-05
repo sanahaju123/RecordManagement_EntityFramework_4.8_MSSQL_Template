@@ -18,7 +18,7 @@ namespace RecordManagementApp.DAL.Services
             _repository = repository;
         }
 
-        public Task<Record> CreateRecord(Record expense)
+        public Task<Record> CreateRecord(Record record)
         {
             //write your code here
             throw new NotImplementedException();
